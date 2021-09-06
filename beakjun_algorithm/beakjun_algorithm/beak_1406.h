@@ -9,6 +9,9 @@ void print_list(std::list<char> string_list)
 		std::cout << c;
 	}
 	std::cout << std::endl;
+
+
+
 }
 
 int sol_1406_main()
