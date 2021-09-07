@@ -40,5 +40,5 @@ int sol_9093_main()
         std::cout << out_str[i] << std::endl;
 
     }
-
+    return 0;
 }
