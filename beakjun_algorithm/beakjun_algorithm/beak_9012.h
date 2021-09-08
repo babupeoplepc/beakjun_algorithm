@@ -3,6 +3,7 @@
 #include <string>
 #include <stack>
 
+
 int sol_9012_main()
 {
     int number_of_line = 0;
