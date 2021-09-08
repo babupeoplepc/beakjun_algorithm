@@ -2,6 +2,7 @@
 #include <iostream>
 #include <list>
 
+
 int sol_1158_main()
 {
 	int number_of_human = 0;
