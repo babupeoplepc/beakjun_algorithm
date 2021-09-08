@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 
+
 class jh_queue {
 	int* mpData;	// 큐 데이터
 	int mSize;		// 큐의 크기
