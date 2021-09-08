@@ -2,6 +2,7 @@
 #include <iostream>
 #include <stack>
 
+
 int sol_10799_main()
 {
 	int output = 0;
