@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 
+
 class jh_stack {
     int* mpData;
     int mSize;              // 메모리가 할당된 데이터 공간 크기

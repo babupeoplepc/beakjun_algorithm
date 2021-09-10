@@ -2,6 +2,7 @@
 #include <iostream>
 #include <list>
 
+
 void print_list(std::list<char> string_list)
 {
 	for (char c : string_list)
