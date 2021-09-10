@@ -10,5 +10,7 @@ int main()
 	//sol_17413_main();
 	//sol_10799_main();
 	//sol_17298_main();
+	//sol_17298_stack_main();
+	sol_17299_main();
 	return 0;
 }
