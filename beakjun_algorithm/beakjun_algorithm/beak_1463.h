@@ -7,7 +7,11 @@ int sol_1463_main()
 {
 	int number;
 	std::cin >> number;
-	if (number <= 3)
+	if (number <= 1)
+	{
+		std::cout << '0' << std::endl;
+	}
+	else if (number <= 3)
 	{
 		std::cout << '1' << std::endl;
 	}
@@ -29,13 +33,11 @@ int sol_1463_main()
 		}
 		for (int i = 0; i < number; i++)
 		{
-			std::cout << "[ " << i << " ] = " << num_data[i] << std::endl;
+			//std::cout << "[ " << i << " ] = " << num_data[i] << std::endl;
 		}
 		std::cout << num_data[number] << std::endl;
-
+		delete[] num_data;
 	}
-	
-		
 
 	return 0;
 }
