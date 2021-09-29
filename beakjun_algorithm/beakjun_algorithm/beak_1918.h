@@ -83,7 +83,6 @@ int sol_1918_main()
 				{
 					sign_stack.push(c);
 				}
-				
 				else
 				{
 					while (!sign_stack.empty())
