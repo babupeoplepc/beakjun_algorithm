@@ -20,13 +20,13 @@
 #include "beak_10845.h"	// 큐
 
 //------- < dynamic programming > -------------
-#include "beak_1463.h"
-#include "beak_11726.h"
-#include "beak_11727.h"
+#include "beak_1463.h"	// 1로 만들기
+#include "beak_11726.h"	// 2xn 타일링
+#include "beak_11727.h"	// 2xn 타일링 2
 
 //------- < tree > ----------------------------
-#include "beak_1991.h"
-#include "beak_2250.h"
+#include "beak_1991.h"	// 트리 순회
+#include "beak_2250.h"	// 트리의 높이와 너비
 #include "beak_11725.h" // 트리의 부모 찾기
 #include "beak_1167.h"	// 트리의 지름
 #include "beak_1967.h"	// 트리의 지름
