@@ -24,7 +24,6 @@ int sol_17299_main()
 	int* number_of_appearances = (max > 1) ? new int[max] : new int;
 	
 	std::fill(number_of_appearances, number_of_appearances + max, 0x00);
-
 	
 
 	for (int i : num)
