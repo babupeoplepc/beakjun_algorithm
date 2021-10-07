@@ -6,6 +6,9 @@
 
 int main()
 {
+	
+	
+
 	//sol_1874_main();
 	//sol_10845_main();
 	//sol_1158_main();
@@ -22,6 +25,10 @@ int main()
 	//sol_1991_main(); 
 	//sol_2250_main();
 	//beak_1167_main();
-	sol_1967_main();
+	//sol_1967_main();
+	//sol_13023_main();
+	//sol_1260_main();
+	//sol_11724_main();
+	sol_1707_main();
 	return 0;
 }
