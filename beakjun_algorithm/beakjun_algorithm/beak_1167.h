@@ -10,7 +10,7 @@ struct node_1167 {
 };
 const int max_1167 = 100001;
 std::vector<node_1167> vec_1167[max_1167];
-bool visited[max_1167];
+bool visited_1167[max_1167];
 
 
 node_1167 dfs_1167(int node, int dis, bool init)
@@ -22,14 +22,14 @@ node_1167 dfs_1167(int node, int dis, bool init)
 		max_node.distance = 0;
 		max_node.number = 0;
 	}
-	if (visited[node]) return max_node;
+	if (visited_1167[node]) return max_node;
 
 	if (max_node.distance < dis)
 	{
 		max_node.distance = dis;
 		max_node.number = node;
 	}
-	visited[node] = true;
+	visited_1167[node] = true;
 	for (int i = 0; i < vec_1167[node].size(); i++)
 	{
 		dfs_1167(vec_1167[node][i].number, vec_1167[node][i].distance + dis, false);
@@ -101,7 +101,7 @@ int beak_1167_main()
 
 
 	node_1167 f_node = dfs_1167(first_node, 0, true);
-	std::fill(visited, visited + max_1167, false);
+	std::fill(visited_1167, visited_1167 + max_1167, false);
 	node_1167 s_node = dfs_1167(f_node.number, 0, true);
 	
 	
