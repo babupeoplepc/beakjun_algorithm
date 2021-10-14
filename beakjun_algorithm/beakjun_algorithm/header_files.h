@@ -39,3 +39,4 @@
 #include "beak_1707.h"	// 이분 그래프
 #include "beak_2667.h"	// 단지번호 붙이기
 #include "beak_4963.h"	// 섬의 개수
+#include "beak_2178.h"	// 미로 탐색

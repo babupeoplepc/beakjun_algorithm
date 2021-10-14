@@ -31,6 +31,7 @@ int main()
 	//sol_11724_main();
 	//sol_1707_main();
 	//sol_2667_main();
-	sol_4963_main();
+	//sol_4963_main();
+	beak_2178::sol_2178_main();
 	return 0;
 }
