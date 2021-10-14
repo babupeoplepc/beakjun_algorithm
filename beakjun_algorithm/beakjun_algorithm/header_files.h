@@ -37,3 +37,4 @@
 #include "beak_1260.h"	// DFS와 BFS
 #include "beak_11724.h"	// 연결 요소의 개수
 #include "beak_1707.h"	// 이분 그래프
+#include "beak_2667.h"	// 단지번호 붙이기
