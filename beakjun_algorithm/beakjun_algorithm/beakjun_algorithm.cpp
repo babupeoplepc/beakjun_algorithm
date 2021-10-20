@@ -32,6 +32,11 @@ int main()
 	//sol_1707_main();
 	//sol_2667_main();
 	//sol_4963_main();
-	beak_2178::sol_2178_main();
+	//beak_2178_DFS::sol_2178_main();
+	//beak_2178_BFS::sol_2178_main();
+	//beak_7576::sol_7576_main();
+	//beak_7562::sol_7562_main();
+	//beak_16929::sol_16929_main();
+	beak_16947::sol_16947_main();
 	return 0;
 }
