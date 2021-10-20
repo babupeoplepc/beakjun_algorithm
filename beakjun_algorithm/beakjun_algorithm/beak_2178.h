@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <queue>
 
-namespace beak_2178 {
+namespace beak_2178_DFS {
 	
 	const int MAX_X = 100;
 	const int MAX_Y = 100;
@@ -104,6 +105,64 @@ namespace beak_2178 {
 
 		std::cout << dfs(0, n * m-1) << std::endl;
 		
+		return 0;
+	}
+}
+namespace beak_2178_BFS
+{
+	bool visited[100][100] = { false, };
+	int n, m;
+	std::string arr[100];
+	int check[100][100] = { 0, };
+
+	void bfs(int i, int j)
+	{
+		visited[i][j] = true;
+		std::queue<std::pair<int, int>> q;
+		q.push(std::make_pair(i, j));
+		
+		int dx[4] = { 0,1,0,-1 };
+		int dy[4] = { -1,0,1,0 };
+
+
+		while (!q.empty())
+		{
+			
+			int x = q.front().second;
+			int y = q.front().first;
+
+			q.pop();
+
+			for (int k = 0; k < 4; k++)
+			{
+				int newX = x + dx[k];
+				int newY = y + dy[k];
+				if ((0 <= newX && newX < m) && (0 <= newY && newY < n)
+					&& (visited[newY][newX] == false)
+					&& (arr[newY][newX] == '1')
+					&& check[newY][newX] == 0)
+				{
+					check[newY][newX] = check[y][x] + 1;
+					visited[newY][newX] = true;
+					q.push(std::make_pair(newY, newX));
+
+				}
+			}
+		}
+	}
+
+
+	int sol_2178_main()
+	{
+		
+		std::cin >> n >> m;
+		for (int i = 0; i < n; i++)
+		{
+			std::cin >> arr[i];
+		}
+
+		bfs(0, 0);
+		std::cout << (check[n - 1][m - 1]) + 1 << std::endl;
 		return 0;
 	}
 }
