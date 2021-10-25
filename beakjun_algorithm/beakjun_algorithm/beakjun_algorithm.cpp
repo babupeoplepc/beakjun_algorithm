@@ -38,7 +38,8 @@ int main()
 	//beak_7562::sol_7562_main();
 	//beak_16929::sol_16929_main();
 	//beak_16947::sol_16947_main();
-	beak_16940::main();
+	//beak_16940::main();
+	beak_16964::main();
 
 
 	return 0;
