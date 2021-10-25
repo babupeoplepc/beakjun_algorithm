@@ -133,8 +133,6 @@ namespace beak_16947
 					memset(subway_depth, 0x00, sizeof(subway_depth));
 				}
 			}
-			printVisited(numberOfStation);
-			printDepth(numberOfStation);
 			for (int i=0; i< numberOfStation; i++)
 			{
 				if (subway_depth[i+1] == -1)
