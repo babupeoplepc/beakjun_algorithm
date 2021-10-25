@@ -44,3 +44,4 @@
 #include "beak_7562.h"	// 나이트의 이동
 #include "beak_16929.h"	// Two Dots
 #include "beak_16947.h"	// 서울 지하철 2호선
+#include "beak_16940.h"	// BFS 스페셜 저지
