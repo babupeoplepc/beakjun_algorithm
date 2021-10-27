@@ -46,3 +46,4 @@
 #include "beak_16947.h"	// 서울 지하철 2호선
 #include "beak_16940.h"	// BFS 스페셜 저지
 #include "beak_16964.h"	// DFS 스페셜 저지
+#include "beak_2146.h"	// 다리 만들기
