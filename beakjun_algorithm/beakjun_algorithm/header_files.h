@@ -47,3 +47,9 @@
 #include "beak_16940.h"	// BFS 스페셜 저지
 #include "beak_16964.h"	// DFS 스페셜 저지
 #include "beak_2146.h"	// 다리 만들기
+
+//------- < bfs > -----------------------------
+#include "beak_1697.h"	// 숨바꼭질
+#include "beak_13913.h"	// 숨바꼭질 4
+#include "beak_14226.h"	// 이모티콘
+#include "beak_13549.h"	// 숨바꼭질 3
